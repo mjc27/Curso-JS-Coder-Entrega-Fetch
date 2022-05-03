@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"  content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title> Tienda de servicios de streaming</title>
+</head>
+<body>
+    <h1 class= "titulo"> Bienvenido a la Tienda de servicios de streaming</h1> 
+    <p>Seleccione el servicio de streaming:</p>
+    <input type="radio" name="stream" value="Netflix">Netflix
+    <input type="radio" name="stream" value="Disney +">Disney +
+    <input type="radio" name="stream" value="Star +">Star +
+    <input type="radio" name="stream" value="HBO Max">HBO Max
+    <input type="radio" name="stream" value="Amazon Prime">Amazon Prime
+    <br><br>
+    <p>Seleccione el tipo de paquete:</p>
+    <input type="radio" name="pack" value="Lite">Lite (1 usuario permitido)
+    <input type="radio" name="pack" value="Standard">Standard (hasta 3 usuarios permitidos y más contenido)
+    <input type="radio" name="pack" value="Premium">Premium (hasta 5 usuarios permitidos y todo el contenido)
+    <br><br>
+    <p>Tiene "Club La Nacion?"</p>
+    <select id="choice">
+        
+        <option value="si">Si</option>
+        <option value="no" selected>No</option>
+    </select>
+    <br><br>
+    <button type="button" id="coti">
+        Cotizar
+    </button>
+    <div id="result"></div>
+    <br>
+    <p>Si estás listo para comprar, llená tus datos y clickea en "Comprar":</p>
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="Nombre"><br>
+        <input type="text" id="apellido" placeholder="Apellido"><br>
+        <input type="text" id="email" placeholder="Casilla de email"><br>
+   </form>
+   <br>
+    <button type = "button" id="comp"> 
+        Comprar
+    </button>
+    <div id="compra"></div>
+
+
+
+
+
+    <script src="appF.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

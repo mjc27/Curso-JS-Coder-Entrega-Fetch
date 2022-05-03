@@ -1,0 +1,5 @@
+[
+    {"nombre": "Juan", "apellido": "Perez", "email": "juanperez@mail.com", "stream": "Netflix", "pack": "Lite", "descuento": "si", "precio": 80},
+    {"nombre": "Lucas", "apellido": "Gomez", "email": "lucasgomez@mail.com", "stream": "Disney +", "pack": "Premium", "descuento": "no", "precio": 500},
+    {"nombre": "Esteban", "apellido": "Andrade", "email": "estebanandrade@mail.com", "stream": "Star +", "pack": "Lite", "descuento": "si", "precio": 80}  
+]
